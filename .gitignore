@@ -3,8 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -144,7 +142,6 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-mypy.ini
 
 # Pyre type checker
 .pyre/
