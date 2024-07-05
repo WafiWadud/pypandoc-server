@@ -1,4 +1,8 @@
-from _typeshed import FileDescriptorOrPath
+from __future__ import annotations
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from _typeshed import FileDescriptorOrPath
 from flask import Flask, Response
 from glob import glob
 from pypandoc import convert_file
