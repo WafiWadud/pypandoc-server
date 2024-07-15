@@ -12,18 +12,18 @@ I am using this on my [Journal Project](https://github.com/WafiWadud/Journal) so
 
 ## How?
 
-The server is written in python using the [pypandoc](https://pypandoc.readthedocs.io/en/stable/) library. It works by finding all markdown files in the root directory and converting them to html and serving them when needed. (i.e https://journal-nala.onrender.com/Entry1.md returns the html version of Entry1.md)
+The server is written in python using the [pypandoc]() library. It works by finding all markdown files in the root directory and converting them to html and serving them when needed. (i.e https://journal-nala.onrender.com/Entry1.md returns the html version of Entry1.md)
 
 ## How to use?
 
 > [!CAUTION]
-> This is not a production server. DO NOT. USE. THIS. FOR. IMPORTANT. THINGS. IT. IS. NOT. SANITIZED.
+> This is not a production server. DO NOT. USE. THIS. FOR. IMPORTANT. THINGS. IT. IS. NOT. SANITIZED. NOR. SAFE. AT. ALL. READ. THE. LICENSE. THERE. IS. NO. WARRANTY.
 
 To install, run the following commands:
 
 ```bash
 git clone https://github.com/WafiWadud/pypandoc-server.git
-pip install Flask pypandoc_binary
+pip install fastapi uvicorn uvloop pypandoc_binary
 cp pypandoc-server/pypandoc-server.py ./{your project}
 ```
 
