@@ -30,5 +30,5 @@ cp pypandoc-server/pypandoc-server.py ./{your project}
 To run, run the following command:
 
 ```bash
-python3 pypandoc-server.py
+uvicorn pypandoc_server:app
 ```
