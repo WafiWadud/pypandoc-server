@@ -32,3 +32,15 @@ To run, run the following command:
 ```bash
 uvicorn pypandoc_server:app
 ```
+
+### Alternatives
+
+Psst. You wanna know some alternatives?
+
+1. pug
+2. handlebars.js
+3. marko
+4. nunjucks
+5. hogun.js
+6. haml
+7. erb
