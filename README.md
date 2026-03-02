@@ -5,10 +5,12 @@ A server which uses markdown instead of html
 ## Why?
 
 I made pypandoc-server to write less and do more. Since i last checked there were no markdown to html converting servers (that support pandoc markdown) out there.
+(Yes there is, i am a fucking dumbass.)
 
 ## Where are you using it?
 
 I am using this on my [Journal Project](https://github.com/WafiWadud/Journal) so that i don't have to write long and lengthy html files for my journal entries.
+(This project, and the journal are fucking dead.)
 
 ## How?
 
@@ -44,3 +46,8 @@ Psst. You wanna know some alternatives?
 5. hogun.js
 6. haml
 7. erb
+8. flask
+9. django
+10. wordpress
+11. jekyll
+    LITTERALLY FUCKING ANYTHING ELSE.
